@@ -1,4 +1,4 @@
-}function setup() {
+function setup() {
   createCanvas(500, 500);
 background("white");
 }
@@ -13,3 +13,4 @@ function draw() {
  if ( mouseIsPressed) {
  rect (mouseX,mouseY,20,30);
   }
+}
